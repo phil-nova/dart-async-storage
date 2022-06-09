@@ -2,7 +2,7 @@ name: flutter_async_storage
 version: 1.0.0
 description: >
   Access data stored in React Native AsyncStorage from Flutter.
-repository: https://github.com/google/dart-async-storage
+repository: https://github.com/google/flutter_async_storage
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
