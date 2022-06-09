@@ -8,18 +8,18 @@ To read data from AsyncStorage in Flutter, you can use a workflow like:
 
 ```
 final asyncStorageReader = AsyncStorageReader(LocalPlatform());
-  try {
-    if (await asyncStorageReader.exists()) {
-      final data = await asyncStorageReader.data('myDataKey');
+try {
+if (await asyncStorageReader.exists()) {
+    final data = await asyncStorageReader.data('myDataKey');
 
-      // Do something with data...
+    // Do something with data...
 
-      // Clear AsyncStorage.
-      await asyncStorageReader.clear();
-    }
-  } catch (e) {
-    // Handle error.
-  }
+    // Clear AsyncStorage.
+    await asyncStorageReader.clear();
+}
+} catch (e) {
+// Handle error.
+}
 ```
 
 ## Using data
