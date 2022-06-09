@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-import 'package:dart_async_storage/async_storage_reader.dart';
-import 'package:test/test.dart';
+import 'package:flutter_async_storage/dart_async_storage.dart';
+import 'package:flutter_test/flutter_test.dart';
 import 'package:platform/src/testing/fake_platform.dart';
 
 void main() {
